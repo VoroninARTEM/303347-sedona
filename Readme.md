@@ -1,7 +1,7 @@
-# Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
+﻿# Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Артем Воронин](https://up.htmlacademy.ru/adaptive/9/user/303347).
-* Наставник: `Неизвестно`.
+* Наставник: [Артем Иванец](https://htmlacademy.ru/profile/id155879).
 
 ---
 
