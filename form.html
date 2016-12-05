@@ -5,6 +5,16 @@
     <title>HTML Academy: Седона-формы</title>
   </head>
   <body>
+    <nav class="main-nav main-nav--open">
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list">
+          <li class="main-nav__item main-nav__item--activ"><a href="index.html">Главная</a></li>
+          <li class="main-nav__item"><a href="photo.html">Фото и Видео</a></li>
+          <li class="main-nav__item"><a href="form.html">Форма отзыва</a></li>
+          <li class="main-nav__item"><a href="https://htmlacademy.ru/">Html academy</a></li>
+        </ul>
+      </div>
+    </nav>
     <header class="page-header">
       <div class="page-header__top-menu">
         <img class="page-header__img" src="" width="" height="" alt="">
@@ -13,16 +23,6 @@
       <div class="page-header__promo">
         <img src="" width="" height="" alt="">
       </div>
-      <nav class="main-nav main-nav--open">
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list">
-            <li class="main-nav__item main-nav__item--activ"><a href="index.html">Главная</a></li>
-            <li class="main-nav__item"><a href="photo.html">Фото и Видео</a></li>
-            <li class="main-nav__item"><a href="form.html">Форма отзыва</a></li>
-            <li class="main-nav__item"><a href="https://htmlacademy.ru/">Html academy</a></li>
-          </ul>
-        </div>
-      </nav>
     </header>
 
     <main>
@@ -35,63 +35,77 @@
         <div class="field-text">
           <div class="field-text__title">Представьтесь:</div>
           <div class="field-text__item">
-            <label class="field-text__label">Имя*:<input class="field-text__item" type="text" name="name"></label>
+            <label class="field-text__label">Имя*:
+              <input class="field-text__item" type="text" name="name">
+            </label>
           </div>
           <div class="field-text__item">
-            <label class="field-text__label">Фамилия*:<input class="field-text__item" type="text" name="surname"></label>
+            <label class="field-text__label">Фамилия*:
+              <input class="field-text__item" type="text" name="surname">
+            </label>
           </div>
           <div class="field-text__item">
-            <label class="field-text__label">Отчество*:<input class="field-text__item" type="text" name="patronymic"></label>
+            <label class="field-text__label">Отчество*:
+              <input class="field-text__item" type="text" name="patronymic">
+            </label>
           </div>
         </div>
 
         <div class="field-text field-text--contacts">
           <div class="field-text__title">Контактная информация:</div>
           <div class="field-text__item">
-            <label class="field-text__label" for="tel">Контактный телефон*:</label>
-            <input class="field-text__tel" type="tel" pattern="[0-9]{11}" value="Введите телефон" name="tel" id="tel">
-            <span class="field-text__img"></span>
+            <label class="field-text__label">
+              <span class="field-text__text">Контактный телефон*:</span>
+              <div class="field-text__item-input">
+                <input class="field-text__tel" type="tel" pattern="[0-9]{11}" value="Введите телефон" name="tel">
+                <span class="field-text__img"></span>
+              </div>
+            </label>
           </div>
           <div class="field-text__item">
-            <label class="field-text__label" for="email">Электронная почта*:</label>
-            <input class="field-text__email" type="email" value="Введите e-mail" name="email" id="email">
-            <span class="field-text__img"></span>
+            <label class="field-text__label" for="email">
+              <span class="field-text__text">Электронная почта*:</span>
+              <div lass="field-text__item-input">
+                <input class="field-text__email" type="email" value="Введите e-mail" name="email">
+                <span class="field-text__img"></span>
+              </div>
+            </label>
           </div>
         </div>
 
         <div class="field-radio">
           <div class="field-radio__title">Ваше общее впечатление:</div>
           <label class="field-radio__item">
-          <input class="field-radio__input" type="radio" name="question"  value="positive" checked>
-          <span class="field-radio__text">Скорее положительное</span>
+            <input class="field-radio__input" type="radio" name="question"  value="positive" checked>
+            <span class="field-radio__text">Скорее положительное</span>
           </label>
           <label class="field-radio__item">
-          <input class="field-radio__input" type="radio"  name="question"  value="negative">
-          <span class="field-radio__text">Скорее отрицательное</span>
+            <input class="field-radio__input" type="radio"  name="question"  value="negative">
+            <span class="field-radio__text">Скорее отрицательное</span>
           </label>
           <label class="field-radio__item">
-          <input class="field-radio__input" type="radio"  name="question"  value="difficult">
-          <span class="field-radio__text">Затрудняюсь ответить</span>
+            <input class="field-radio__input" type="radio"  name="question"  value="difficult">
+            <span class="field-radio__text">Затрудняюсь ответить</span>
           </label>
         </div>
 
         <div class="field-checkbox">
           <div class="field-checkbox__title">Посещенные достопримечательности:</div>
           <label class="field-checkbox__item">
-          <input type="field-checkbox__input" name="bridge" checked>
-          <span class="field-checkbox__text">Мост Дьявола</span>
+            <input type="field-checkbox__input" name="bridge" checked>
+            <span class="field-checkbox__text">Мост Дьявола</span>
           </label>
           <label class="field-checkbox__item">
-          <input type="field-checkbox__input" name="park" checked>
-          <span class="field-checkbox__text">Слайд-Парк</span>
+            <input type="field-checkbox__input" name="park" checked>
+            <span class="field-checkbox__text">Слайд-Парк</span>
           </label>
           <label class="field-checkbox__item">
-          <input type="field-checkbox__input" name="mountain">
-          <span class="field-checkbox__text">Гора-Колокол</span>
+            <input type="field-checkbox__input" name="mountain">
+            <span class="field-checkbox__text">Гора-Колокол</span>
           </label>
           <label class="field-checkbox__item">
-          <input type="field-checkbox__input" name="rock" checked>
-          <span class="field-checkbox__text">Красные скалы</span>
+            <input type="field-checkbox__input" name="rock" checked>
+            <span class="field-checkbox__text">Красные скалы</span>
           </label>
         </div>
 
@@ -99,18 +113,18 @@
           <div clas="field-textarea__title">Опишите свои эмоции:</div>
           <textarea class="field-textarea__textarea" rows="7" cols="">Опишите подробно все свои восторги</textarea>
         </div>
-        <div class="action">
-          <button class="action__button">Отправить отзыв</button>
+        <div class="field-action">
+          <button class="field-action__button">Отправить отзыв</button>
         </div>
       </form>
     </main>
 
     <footer class="page-footer">
       <strong class="page-footer__hashtag">#VISITSEDONA</strong>
-      <div class="page-footer_social">
-        <a class="page-footer__twitter" href=""><img src="" alt="" width="" height=""></a>
-        <a class="page-footer__facebook" href=""><img src="" alt="" width="" height=""></a>
-        <a class="page-footer__youtube" href=""><img src="" alt="" width="" height=""></a>
+      <div class="social">
+        <a class="social__twitter" href=""><img src="" alt="" width="" height=""></a>
+        <a class="social__facebook" href=""><img src="" alt="" width="" height=""></a>
+        <a class="social__youtube" href=""><img src="" alt="" width="" height=""></a>
        </div>
       <div class="page-footer__copyright">
         <span class="page-footer__designed">Разработано</span>
