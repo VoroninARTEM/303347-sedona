@@ -5,6 +5,16 @@
     <title>HTML Academy: Седона-фотографии</title>
   </head>
   <body>
+    <nav class="main-nav main-nav--open">
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list">
+          <li class="main-nav__item main-nav__item--activ"><a href="index.html">Главная</a></li>
+          <li class="main-nav__item"><a href="photo.html">Фото и Видео</a></li>
+          <li class="main-nav__item"><a href="form.html">Форма отзыва</a></li>
+          <li class="main-nav__item"><a href="https://htmlacademy.ru/">Html academy</a></li>
+        </ul>
+      </div>
+    </nav>
     <header class="page-header">
       <div class="page-header__top-menu">
         <img class="page-header__img" src="" width="" height="" alt="">
@@ -13,16 +23,6 @@
       <div class="page-header__promo">
         <img src="" width="" height="" alt="">
       </div>
-      <nav class="main-nav main-nav--open">
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list">
-            <li class="main-nav__item main-nav__item--activ"><a href="index.html">Главная</a></li>
-            <li class="main-nav__item"><a href="photo.html">Фото и Видео</a></li>
-            <li class="main-nav__item"><a href="form.html">Форма отзыва</a></li>
-            <li class="main-nav__item"><a href="https://htmlacademy.ru/">Html academy</a></li>
-          </ul>
-        </div>
-      </nav>
     </header>
 
     <main>
@@ -31,39 +31,47 @@
         <p class="heading__intro">Не можете решиться на путешествие из-за курс? Фотографии помогут вам забыть о политике и экономике.</p>
       </section>
 
-      <article class="page-article">
-        <img class="page-article__img" src="" alt="" width="" height="">
-        <footer class="page-article__footer">
-          <h2 class="page-article__title">Неродные просторы</h2>
-          <span class="page-article__span">Автор фото:<cite class="page-article__cite">Борис</cite></span>
-          <a class="page-article__like" href=""><span class="quantity">1350</span></a>
+      <article class="post">
+        <div class="post__area">
+          <img class="post__img" src="" alt="" width="" height="">
+        </div>
+        <footer class="post__footer">
+          <h3 class="post__title">Неродные просторы</h3>
+          <span class="post__span">Автор фото:<cite class="page-article__cite">Борис</cite></span>
+          <a class="post__like" href=""><span class="quantity">1350</span></a>
         </footer>
       </article>
 
-      <article class="page-article">
-        <img class="page-article__img" src="" alt="" width="" height="">
-        <footer class="page-article__footer">
-          <h2 class="page-article__title">Местная растительность</h2>
-          <span class="page-article__span">Автор фото:<cite class="page-article__cite">Сергей</cite></span>
-          <a class="page-article__like" href=""><span class="quantity">143</span></a>
+      <article class="post">
+        <div class="post__area">
+          <img class="post__img" src="" alt="" width="" height="">
+        </div>
+        <footer class="post__footer">
+          <h3 class="post__title">Местная растительность</h3>
+          <span class="post__span">Автор фото:<cite class="page-article__cite">Сергей</cite></span>
+          <a class="post__like" href=""><span class="quantity">143</span></a>
         </footer>
       </article>
 
-      <article class="page-article">
-        <img class="page-article__img" src="" alt="" width="" height="">
-        <footer class="page-article__footer">
-          <h2 class="page-article__title">Дорога на север</h2>
-          <span class="page-article__span">Автор фото:<cite class="page-article__cite">Петр</cite></span>
-          <a class="page-article__like" href=""><span class="quantity">96</span></a>
+      <article class="post">
+        <div class="post__area">
+          <img class="post__img" src="" alt="" width="" height="">
+        </div>
+        <footer class="post__footer">
+          <h3 class="post__title">Дорога на север</h3>
+          <span class="post__span">Автор фото:<cite class="page-article__cite">Петр</cite></span>
+          <a class="post__like" href=""><span class="quantity">96</span></a>
         </footer>
       </article>
 
-      <article class="page-article">
-        <img class="page-article__img" src="" alt="" width="" height="">
-        <footer class="page-article__footer">
-          <h2 class="page-article__title">Мост дьявола</h2>
-          <span class="page-article__span">Автор фото:<cite class="page-article__cite">Антон</cite></span>
-          <a class="page-article__like" href=""><span class="quantity">254</span></a>
+      <article class="post">
+        <div class="post__area">
+          <img class="post__img" src="" alt="" width="" height="">
+        </div>
+        <footer class="post__footer">
+          <h3 class="post__title">Мост дьявола</h3>
+          <span class="post__span">Автор фото:<cite class="page-article__cite">Антон</cite></span>
+          <a class="post__like" href=""><span class="quantity">254</span></a>
         </footer>
       </article>
 
@@ -71,26 +79,28 @@
       <div class="presentation">
         <h2 class="presentation__title">Все еще сомневаетесь?</h2>
         <p class="presentation__intro">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
-        <div class="presentation__video">
-          <img class="presentation__img" src="" alt="" width="" height="">
-          <div class="presentation__controls">
-            <div class="presentation__top-bar">
-              <div class="presentation__top-bar-line">
-                <img class="presentation__img" src="" alt="" width="" height="">
+        <div class="video">
+          <div class="video__area">
+            <img class="video__img" src="" alt="" width="" height="">
+          </div>
+          <div class="video__controls">
+            <div class="video__top-bar">
+              <div class="video__top-bar-line">
+                <img class="video__img" src="" alt="" width="" height="">
               </div>
-              <div class="presentation__top-bar-slider">
-                <img class="presentation__img" src="" alt="" width="" height="">
+              <div class="video__top-bar-slider">
+                <img class="video__img" src="" alt="" width="" height="">
               </div>
             </div>
-            <div class="presentation__bottom-bar">
-              <div class="presentation__bottom-bar-item">
-                <button class="presentation__bottom-bar-button"><img class="presentation__img" src="" alt="" width="" height=""></button>
+            <div class="video__bottom-bar">
+              <div class="video__bottom-bar-item">
+                <button class="video__bottom-bar-button"><img class="presentation__img" src="" alt="" width="" height=""></button>
               </div>
-              <div class="presentation__bottom-bar-item">
-                <button class="presentation__bottom-bar-button"><img class="presentation__img" src="" alt="" width="" height=""></button>
+              <div class="video__bottom-bar-item">
+                <button class="video__bottom-bar-button"><img class="presentation__img" src="" alt="" width="" height=""></button>
               </div>
-              <div class="presentation__bottom-bar-item">
-                <button class="presentation__bottom-bar-button"><img class="presentation__img" src="" alt="" width="" height=""></button>
+              <div class="video__bottom-bar-item">
+                <button class="video__bottom-bar-button"><img class="presentation__img" src="" alt="" width="" height=""></button>
               </div>
             </div>
           </div>
@@ -100,10 +110,10 @@
 
     <footer class="page-footer">
       <strong class="page-footer__hashtag">#VISITSEDONA</strong>
-      <div class="page-footer__social">
-        <a class="page-footer__twitter" href=""><img src="" alt="" width="" height=""></a>
-        <a class="page-footer__facebook" href=""><img src="" alt="" width="" height=""></a>
-        <a class="page-footer__youtube" href=""><img src="" alt="" width="" height=""></a>
+      <div class="social">
+        <a class="social__twitter" href=""><img src="" alt="" width="" height=""></a>
+        <a class="social__facebook" href=""><img src="" alt="" width="" height=""></a>
+        <a class="social__youtube" href=""><img src="" alt="" width="" height=""></a>
        </div>
       <div class="page-footer__copyright">
         <span class="page-footer__designed">Разработано</span>
