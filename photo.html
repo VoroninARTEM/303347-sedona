@@ -1,97 +1,114 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
-<head>
-  <title>HTML Academy: Седона-фотографии</title>
-</head>
-<body>
-  <header class="page-header">
-      <div class="page-header__logo">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона-фотографии</title>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__top-menu">
+        <img class="page-header__img" src="" width="" height="" alt="">
+        <button class="page-header__toggle" tupe="button">Открыть меню</button>
+      </div>
+      <div class="page-header__promo">
         <img src="" width="" height="" alt="">
       </div>
       <nav class="main-nav main-nav--open">
-        <button class="main-nav__toggle" tupe="button">Открыть меню</button>
         <div class="main-nav__wrapper">
-          <ul class="main-nav__items">
-            <li class="main-nav__item main-nav__item--activ"><a href="#">Главная</a></li>
-            <li class="main-nav__item">Фото и Видео<a href="#"></a></li>
-            <li class="main-nav__item">Форма отзыва<a href="#"></a></li>
-            <li class="main-nav__item">Html academy<a href="#"></a></li>
+          <ul class="main-nav__list">
+            <li class="main-nav__item main-nav__item--activ"><a href="index.html">Главная</a></li>
+            <li class="main-nav__item"><a href="photo.html">Фото и Видео</a></li>
+            <li class="main-nav__item"><a href="form.html">Форма отзыва</a></li>
+            <li class="main-nav__item"><a href="https://htmlacademy.ru/">Html academy</a></li>
           </ul>
         </div>
       </nav>
     </header>
-  <main>
-    <section class="description">
-      <div class="description__img">
-        <img src="" width="" height="" alt="">
-      </div>
-      <div class="description__phrase">
-        <b class="description__slogan">Фото и Видео</b>
-        <p class="description__intro">Не можете решиться на путешествие из-за курс? Фотографии помогут вам забыть о политике и экономике.</p>
-      </div>
-    </section>
 
-    <article class="page-article">
-      <figure class="page-article__figure">
+    <main>
+      <section class="heding">
+        <h1 class="heading__title">Фото и Видео</h1>
+        <p class="heading__intro">Не можете решиться на путешествие из-за курс? Фотографии помогут вам забыть о политике и экономике.</p>
+      </section>
+
+      <article class="page-article">
         <img class="page-article__img" src="" alt="" width="" height="">
-        <figcaption class="page-article_figcaption">Неродные просторы</figcaption>
-      </figure>
-      <span class="page-article__span">Автор фото:<cite class="page-article__cite">Борис</cite></span>
-      <div>
-        <img class="page-article__like" src="" alt="" width="" height="">
-      </div>
-    </article>
+        <footer class="page-article__footer">
+          <h2 class="page-article__title">Неродные просторы</h2>
+          <span class="page-article__span">Автор фото:<cite class="page-article__cite">Борис</cite></span>
+          <a class="page-article__like" href=""><span class="quantity">1350</span></a>
+        </footer>
+      </article>
 
-    <article class="page-article">
-      <figure class="page-article__figure">
+      <article class="page-article">
         <img class="page-article__img" src="" alt="" width="" height="">
-        <figcaption class="page-article_figcaption">Местная растительность</figcaption>
-      </figure>
-      <span class="page-article__span">Автор фото:<cite class="page-article__cite">Сергей</cite></span>
-      <div>
-        <img class="page-article__like" src="" alt="" width="" height="">
-      </div>
-    </article>
+        <footer class="page-article__footer">
+          <h2 class="page-article__title">Местная растительность</h2>
+          <span class="page-article__span">Автор фото:<cite class="page-article__cite">Сергей</cite></span>
+          <a class="page-article__like" href=""><span class="quantity">143</span></a>
+        </footer>
+      </article>
 
-    <article class="page-article">
-      <figure class="page-article__figure">
+      <article class="page-article">
         <img class="page-article__img" src="" alt="" width="" height="">
-        <figcaption class="page-article_figcaption">Дорога на север</figcaption>
-      </figure>
-      <span class="page-article__span">Автор фото:<cite class="page-article__cite">Петр</cite></span>
-      <div>
-        <img class="page-article__like" src="" alt="" width="" height="">
-      </div>
-    </article>
+        <footer class="page-article__footer">
+          <h2 class="page-article__title">Дорога на север</h2>
+          <span class="page-article__span">Автор фото:<cite class="page-article__cite">Петр</cite></span>
+          <a class="page-article__like" href=""><span class="quantity">96</span></a>
+        </footer>
+      </article>
 
-    <article class="page-article">
-      <figure class="page-article__figure">
+      <article class="page-article">
         <img class="page-article__img" src="" alt="" width="" height="">
-        <figcaption class="page-article_figcaption">Мост дьявола</figcaption>
-      </figure>
-      <span class="page-article__span">Автор фото:<cite class="page-article__cite">Антон</cite></span>
-      <div>
-        <img class="page-article__like" src="" alt="" width="" height="">
-      </div>
-    </article>
+        <footer class="page-article__footer">
+          <h2 class="page-article__title">Мост дьявола</h2>
+          <span class="page-article__span">Автор фото:<cite class="page-article__cite">Антон</cite></span>
+          <a class="page-article__like" href=""><span class="quantity">254</span></a>
+        </footer>
+      </article>
 
-    <section class="presentation">
-      <h2 class="presentation__title">Все еще сомневаетесь?</h2>
-      <p class="presentation__intro">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
-      <div class="presentation__block">
-        <video src="" controls poster="" preload="auto" width="" height=""></video>
-      </div>
-    </section>
-  </main>
 
-  <footer class="page-footer">
-      <b class="page-footer__tagline">#VISITSEDONA</b>
-      <a class="page-footer__twitter" href=""><img src="" alt="" width="" height=""></a>
-      <a class="page-footer__facebook" href=""><img src="" alt="" width="" height=""></a>
-      <a class="page-footer__youtube" href=""><img src="" alt="" width="" height=""></a>
-      <div class="page-footer__developer">
-        <span>Разработано</span>
+      <div class="presentation">
+        <h2 class="presentation__title">Все еще сомневаетесь?</h2>
+        <p class="presentation__intro">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+        <div class="presentation__video">
+          <img class="presentation__img" src="" alt="" width="" height="">
+          <div class="presentation__controls">
+            <div class="presentation__top-bar">
+              <div class="presentation__top-bar-line">
+                <img class="presentation__img" src="" alt="" width="" height="">
+              </div>
+              <div class="presentation__top-bar-slider">
+                <img class="presentation__img" src="" alt="" width="" height="">
+              </div>
+            </div>
+            <div class="presentation__bottom-bar">
+              <div class="presentation__bottom-bar-item">
+                <button class="presentation__bottom-bar-button"><img class="presentation__img" src="" alt="" width="" height=""></button>
+              </div>
+              <div class="presentation__bottom-bar-item">
+                <button class="presentation__bottom-bar-button"><img class="presentation__img" src="" alt="" width="" height=""></button>
+              </div>
+              <div class="presentation__bottom-bar-item">
+                <button class="presentation__bottom-bar-button"><img class="presentation__img" src="" alt="" width="" height=""></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="page-footer">
+      <strong class="page-footer__hashtag">#VISITSEDONA</strong>
+      <div class="page-footer__social">
+        <a class="page-footer__twitter" href=""><img src="" alt="" width="" height=""></a>
+        <a class="page-footer__facebook" href=""><img src="" alt="" width="" height=""></a>
+        <a class="page-footer__youtube" href=""><img src="" alt="" width="" height=""></a>
+       </div>
+      <div class="page-footer__copyright">
+        <span class="page-footer__designed">Разработано</span>
+        <a class="page-footer__academy" href="https://htmlacademy.ru/">HTML-academy</a>
       </div>
     </footer>
-</body>
+  </body>
 </html>
